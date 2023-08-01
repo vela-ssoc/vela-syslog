@@ -7,6 +7,7 @@ func (s *server) info(out lua.Console) {
 	out.Printf("uptime: %s", s.uptime.Format("2006-01-02 15:04:06"))
 	out.Println("version:  v1.0.0")
 	out.Println("")
+
 }
 
 func (s *server) Show(out lua.Console) {
